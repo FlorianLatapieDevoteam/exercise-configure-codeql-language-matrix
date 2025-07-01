@@ -16,8 +16,7 @@ jobs:
     
     strategy:
       matrix:
-        include:
-          - language: python
+        language: ['python']
 
     steps:
       - name: Checkout repository
